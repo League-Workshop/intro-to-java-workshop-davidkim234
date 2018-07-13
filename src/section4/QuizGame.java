@@ -11,41 +11,61 @@ public class QuizGame {
 		// 2. Ask the user a question
 		String answer1 = JOptionPane.showInputDialog("Who is the best men's volleyball player in the world?");
 		// 3. Use an if statement to check if their answer is correct
-		if (answer1.equals("Matt Anderson")) {
+		if (answer1.equals("Max Holt")) {
 			score++;
 			JOptionPane.showMessageDialog(null, "Correct");
 		} else {
-			JOptionPane.showMessageDialog(null, "Wrong! The answer is Matt Anderson");
+			JOptionPane.showMessageDialog(null, "Wrong! The answer is Max Holt");
 		}
 		String answer2 = JOptionPane.showInputDialog("Who is the best basketball player in the world?");
-		if (answer2.equals("Lebron James")) {
+		if (answer2.equals("Kawhi Leonard")) {
 			score++;
 			JOptionPane.showMessageDialog(null, "Correct");
 		} else {
-			JOptionPane.showMessageDialog(null, "Wrong! The Answer is Lebron James");
+			JOptionPane.showMessageDialog(null, "Wrong! The Answer is Kawhi Leonard");
 		}
 		String answer3 = JOptionPane.showInputDialog("Which team is the best in the NFL?");
-		if (answer3.equals("Chargers")) {
+		if (answer3.equals("Eagles")) {
 			score++;
 			JOptionPane.showMessageDialog(null, "Correct");
 		} else {
-			JOptionPane.showMessageDialog(null, "Wrong! The answer is the Chargers");
+			JOptionPane.showMessageDialog(null, "Wrong! The answer is the Eagles");
 		}
 		String answer4 = JOptionPane.showInputDialog("Which team is the best in the NBA?");
-		if (answer4.equals("Clippers")) {
+		if (answer4.equals("Lakers")) {
 			score++;
 			JOptionPane.showMessageDialog(null, "Correct");
 		} else {
-			JOptionPane.showMessageDialog(null, "Wrong! The answer is the Clippers");
+			JOptionPane.showMessageDialog(null, "Wrong! The answer is the Lakers");
 		}
-		String answer5 = JOptionPane.showInputDialog("What do people call Kevin Durant after he joined the warriors?");
-		if (answer5.equals("A snake")) {
+		String answer5 = JOptionPane.showInputDialog("What do people call Steph Curry and Klay Thompson?");
+		if (answer5.equals("Splash Bros")) {
 			score++;
 			JOptionPane.showMessageDialog(null, "Correct");
 		} else {
-			JOptionPane.showMessageDialog(null, "Wrong! The answer is A snake");
+			JOptionPane.showMessageDialog(null, "Wrong! The answer is Splash Bros");
 		}
-
+String answer6 = JOptionPane.showInputDialog("Which team will win the national championship in college basketball next year?");
+if (answer6.equals("San Diego State")) {
+	score++;
+	JOptionPane.showMessageDialog(null, "Correct");
+} else {
+	JOptionPane.showMessageDialog(null, "Wrong! The answer is San Diego State");
+}
+	String answer7=JOptionPane.showInputDialog("Which High School is the best in San Diego?");
+	if (answer7.equals("Westview High School")) {
+		score++;
+		JOptionPane.showMessageDialog(null, "Correct");
+	} else {
+		JOptionPane.showMessageDialog(null, "Wrong! The answer is Westview High School");
+	}
+	String answer8=JOptionPane.showInputDialog("Who is the best Avenger?");
+	if (answer8.equals("Thor")) {
+	score++;
+		JOptionPane.showMessageDialog(null, "Correct");
+	} else {
+		JOptionPane.showMessageDialog(null, "Wrong. The answer is Thor");
+}
 		// 4. if the user's answer is correct
 
 		// -- add one to their score
